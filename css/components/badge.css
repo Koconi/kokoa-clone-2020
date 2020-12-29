@@ -1,0 +1,19 @@
+.badge {
+    background-color: tomato;
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;    /* 원으로 만들고 싶으면 길이의 반을 주면됨 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+}
+
+.small__circle {
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    position: absolute;
+    background-color: tomato;
+}
